@@ -3,7 +3,7 @@ import "./nav.scss";
 
 function Navbar({ menuOpen, setMenuOpen }) {
   return (
-    <div className={"topbar " + (menuOpen && "active")}>
+    <div className={"navbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
