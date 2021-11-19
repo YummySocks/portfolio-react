@@ -1,9 +1,9 @@
 import React from 'react';
-
+import "./main.scss"
 function MainContainer () {
     return (
-        <div>
-            <h1>Main</h1>
+        <div className="main-container">
+            NO
         </div>
     )
 }

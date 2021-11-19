@@ -1,18 +1,33 @@
-import React, { useState } from 'react';
-function Navbar () {
-  
+import "./nav.scss";
 
-    return (
-        <div>
-            <a href="/">Patrick Sutcliffe </a>
-                <ul>
-                <li><a href="#about-me"> About me </a></li>
-                <li><a href="#my-work"> Work </a></li>
-                <li><a href="#contact-me"> Contact Me </a></li>
-                <li><a href="resume"> Resume </a></li>
-              </ul>
+
+function Navbar({ menuOpen, setMenuOpen }) {
+  return (
+    <div className={"topbar " + (menuOpen && "active")}>
+      <div className="wrapper">
+        <div className="left">
+          <a href="#intro" className="logo">
+            My Portfolio
+          </a>
+          <div className="itemContainer">
+            {/* <Person className="icon" /> */}
+            <span>4046807224</span>
+          </div>
+          <div className="itemContainer">
+            {/* <Mail className="icon" /> */}
+            <span>patrickdsutcliffe@gmail.com</span>
+          </div>
         </div>
-    )
+        <div className="right">
+          <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Navbar
