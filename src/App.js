@@ -5,6 +5,7 @@ import AboutContainer from './components/about/About';
 import ContactContainer from './components/conactinfo/Contact';
 import "./app.scss"
 import Menu from './components/menu/Menu';
+import Portfolio from './components/portfolio/portfolio';
 
 function App() {
   const [menuOpen,setMenuOpen] = useState(false)
@@ -14,6 +15,7 @@ function App() {
       < Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}  />
       <div className="sections">
       < AboutContainer />
+      < Portfolio />
       < MainContainer />
       < ContactContainer />
     </div>
