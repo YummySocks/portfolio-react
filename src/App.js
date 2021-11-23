@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Navbar from './components/nav/Navbar';
-import MainContainer from './components/main/Main';
 import AboutContainer from './components/about/About';
 import ContactContainer from './components/conactinfo/Contact';
 import "./app.scss"
@@ -16,7 +15,6 @@ function App() {
       <div className="sections">
       < AboutContainer />
       < Portfolio />
-      < MainContainer />
       < ContactContainer />
     </div>
     </div>

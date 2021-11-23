@@ -52,6 +52,8 @@ export default function Portfolio() {
             <img
               src={d.img}
               alt=""
+              onClick={() => window.location.href = (d.url)}
+              
             />
             <h3>{d.title}</h3>
           </div>
