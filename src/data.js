@@ -9,23 +9,20 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "Event Planner",
-      img:
-        proj2,
-        url: "https://group-event-planner.herokuapp.com/",
+      img: proj2,
+      url: "https://group-event-planner.herokuapp.com/",
     },
     {
       id: 2,
       title: "Date Night Picker",
-      img:
-      proj1,
-        url: "https://erion42.github.io/Date-Night/",
+      img: proj1,
+      url: "https://erion42.github.io/Date-Night/",
     },
     {
       id: 3,
       title: "Placeholder for project 3",
-      img:
-        powder,
-        url: "",
+      img: powder,
+      url: "",
     }
   ];
   
