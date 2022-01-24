@@ -1,5 +1,4 @@
 import React from 'react';
-import "./contact.scss"
 function ContactContainer () {
     return (
         <div id="contact">

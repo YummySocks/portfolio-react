@@ -1,4 +1,4 @@
-import "./nav.scss";
+
 
 
 function Navbar({ menuOpen, setMenuOpen }) {

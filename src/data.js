@@ -20,9 +20,9 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Placeholder for project 3",
+      title: "E-Commerce",
       img: powder,
-      url: "",
+      url: "https://pump-haus.herokuapp.com/",
     }
   ];
   

@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Navbar from './components/nav/Navbar';
 import AboutContainer from './components/about/About';
 import ContactContainer from './components/conactinfo/Contact';
-import "./app.scss"
 import Menu from './components/menu/Menu';
 import Portfolio from './components/portfolio/portfolio';
 
